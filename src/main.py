@@ -10,6 +10,9 @@ HTMLDIR = os.path.abspath(
     )
 )
 
+#FOO
+#BAR
+
 def makeApp():
     endpoints=[
         ("/",Index.Handler),
